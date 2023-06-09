@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryane Food</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+    <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div id="loading-spinner"></div>
+    </div>
+    <nav>
+      <div class="logo">
+        <h1>Ryane Food</h1>
+      </div>
+      <ul class="list-item">
+        <li><a href="#about-us" id="about-us-button">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/bg.jpg" alt="Image 1" />
+        <div class="carousel-caption">
+          <h2>Pizza Douce Algérienne</h2>
+          <p>
+            Ryane Food est un restaurant de pizzas situé en Algérie qui propose
+            des pizzas délicieuses, préparées avec des ingrédients frais et de
+            qualité. Nos pizzas sont cuites à la perfection dans un four à bois
+            traditionnel et sont accompagnées d'un large choix de boissons pour
+            un repas mémorable.
+          </p>
+          <button class="btn">Appelez-nous</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/img1.webp" alt="Image 2" />
+        <div class="carousel-caption">
+          <h2>Pizza Margherita</h2>
+          <p>
+            Dégustez la classique pizza Margherita avec de la mozzarella
+            fraîche, des tomates juteuses et des feuilles de basilic parfumées.
+            Préparée avec amour et passion pour un goût italien parfait.
+          </p>
+          <button class="btn">Appelez-nous</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/img3.webp" alt="Image 3" />
+        <div class="carousel-caption">
+          <h2>Pizza Pepperoni Épicée</h2>
+          <p>
+            Satisfaites vos envies avec notre pizza au pepperoni épicé, garnie
+            de généreuses tranches de pepperoni relevé et de fromage fondu. Une
+            explosion de saveurs en bouche !
+          </p>
+          <button class="btn">Appelez-nous</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="gallery">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="image-grid">
+          <div class="image-row">
+            <img src="img/Gallery/image1.webp" alt="Image 1" />
+            <img src="img/Gallery/image2.webp" alt="Image 2" />
+            <img src="img/Gallery/image3.webp" alt="Image 3" />
+          </div>
+          <div class="image-row">
+            <img src="img/Gallery/image4.webp" alt="Image 4" />
+            <img src="img/Gallery/image5.webp" alt="Image 5" />
+            <img src="img/Gallery/image6.webp" alt="Image 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <div class="review-content">
+        <h2>
+          Ryane Food est un excellent choix pour avoir un repas délicieux et
+          abordable à Alger. La nourriture est fraîche et savoureuse. J'ai passé
+          un très bon moment et je vais certainement revenir.
+        </h2>
+        <p>- Ryane, Pro-Advance</p>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="service">
+        <img src="img/img1.webp" alt="Livraison à domicile" />
+        <h3>Livraison à domicile</h3>
+        <p>Nous livrons des pizzas fraîches directement à votre porte.</p>
+        <a href="#" class="btn">En savoir plus</a>
+      </div>
+      <div class="service">
+        <img src="img/img2.webp" alt="Emporter" />
+        <h3>Emporter</h3>
+        <p>
+          Venez dans nos restaurants pour emporter des pizzas chaudes et
+          délicieuses.
+        </p>
+        <a href="#" class="btn">En savoir plus</a>
+      </div>
+      <div class="service">
+        <img src="img/img3.webp" alt="Service à table" />
+        <h3>Service à table</h3>
+        <p>Nous servons des pizzas chaudes et fraîches à votre table.</p>
+        <a href="#" class="btn">En savoir plus</a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <h2>Formulaire de contact Ryane Food</h2>
+        <p>
+          Utilisez ce formulaire pour nous contacter si vous avez des questions
+          ou des commentaires à propos de notre restaurant de pizzas Ryane Food.
+        </p>
+      </div>
+      <div class="contact-form">
+        <h2>Contactez-nous</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+    <section class="about" id="about-us">
+      <div class="container">
+        <div class="section-title">Qui nous-sommes ?</div>
+        <div class="section-description">
+          Je suis très fier de présenter Ryane Food, une entreprise de
+          restauration spécialisée dans les pizzas située en Algérie. Nous nous
+          efforçons de produire des pizzas de qualité avec des ingrédients frais
+          et naturels qui raviront les papilles de nos clients. Notre choix de
+          garnitures est varié et nous proposons également des options
+          végétariennes pour satisfaire tous les goûts. Chez Ryane Food, nous
+          essayons d'offrir à nos clients une expérience de restauration
+          complète. Nous proposons un grand choix de boissons pour accompagner
+          nos pizzas, et nous travaillons constamment pour améliorer le niveau
+          de service que nous offrons à nos clients. Nous sommes fiers de
+          pouvoir offrir des produits de qualité à des prix abordables pour
+          tous.
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <h3>About Ryane Food</h3>
+            <p>
+              Ryane Food is a leading pizza restaurant located in Algeria. We
+              take pride in serving high-quality pizzas.
+            </p>
+          </div>
+          <div class="footer-right">
+            <h3>Contact Information</h3>
+            <p>Pro-Advance, School Projet</p>
+            <p>Email: info@ryanefood.com</p>
+            <p>Phone: +1234567890</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Ryane Food. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/loading.js"></script>
+  </body>
+</html>
